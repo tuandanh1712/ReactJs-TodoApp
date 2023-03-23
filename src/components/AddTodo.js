@@ -9,7 +9,6 @@ const AddTodo = ({ addTodo }) => {
     addTodo(title);
     setTitle("");
   };
-
   return (
     <form className="form-container" onSubmit={addTodo1}>
       <input
